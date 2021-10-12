@@ -1,0 +1,90 @@
+Java 练习题_变量|数据类型|运算符
+1、为抵抗洪水，战士连续作战89小时，编程计算共多少天零多少小时？
+2、根据你的理解，说明一下“==”和“=”的区别。
+     ==是关系运算符，用于判断是否相等       =是赋值运算符
+3、根据运算符的功能，我们把运算符分成哪几类？
+- 算术运算符
+- 赋值运算符
+- 关系运算符
+- 逻辑运算符
+- 三元运算符
+- 位运算符
+
+
+4、写出程序的输出结果：
+	public static void main(String args[]){
+		int a=5+4;	
+		int b=a*2;	
+		int c=b/4;	
+		int d=b-c;	
+		int e=-d;	
+		int f=e%4;	
+		double g=18.4;	
+		double h=g%4;	
+		int i=3;	
+		int j=i++;	
+		int k=++i;	
+		System.out.println("a="+a);
+		System.out.println("b="+b);
+		System.out.println("c="+c);
+		System.out.println("d="+d);
+		System.out.println("e="+e);
+		System.out.println("f="+f);
+		System.out.println("g="+g);
+		System.out.println("h="+h);
+		System.out.println("i="+i);
+		System.out.println("j="+j);
+		System.out.println("k="+k);
+	}
+a=9
+b=18
+c=4
+d=14
+e=-14
+f=-2
+g=18.4
+h=2.3999999999999986
+i=5
+j=3
+k=5
+
+5、写出程序的输出结果:
+	public static void main(String[] args){
+		int n=3， m=4;
+		System.out.println();
+		System.out.println("n<m is "+(n<m));		
+		System.out.println("n=m is "+((++n)==m));	
+		System.out.println("n>m is "+((++n)>m));	
+		System.out.println("n is "+n);			
+	}
+n<m is true
+n=m is true
+n>m is true
+n is 5
+
+6、写出程序的输出结果：
+	public static void main(String[] args){
+		int x=1,y=12;
+		x+=2;	
+		y-=3;	
+		System.out.println();
+		System.out.println("x= "+x+" y= "+y);	
+		y/=x;	
+		System.out.println("x= "+x+" y= "+y);
+		y++;	
+		y%=x;	
+		System.out.println("x= "+x+" y= "+y);
+	}
+
+x= 3 y= 9
+x= 3 y= 3
+x= 3 y= 1
+
+
+7、键盘录入两个数字a和b，不引入第三个变量，交换a和b的值
+
+
+拓展题
+	小明要到美国旅游，可是那里的温度是以华氏度为单位记录的。它需要一个程序将华氏温度（80度）转换为摄氏度，并以华氏度和摄氏度为单位分别显示该温度。 提示：摄氏度与华氏度的转换公式为：摄氏度 = 5/9.0*(华氏度-32)
+
+	
